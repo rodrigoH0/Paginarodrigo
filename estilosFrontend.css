@@ -1,0 +1,61 @@
+.imga{
+    float: left;
+}
+.contenedor{
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+}
+.titulo{
+    text-align: center;
+    color: turquoise;
+}
+header div p {
+    text-align: center;
+    
+    font-size: 25px;
+    margin: 10px;
+    border: 5px black;
+    padding: 10px;
+}
+header, .main, footer{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav{
+    background: #258fd5;
+    overflow: hidden;
+}
+
+header nav ul{
+   list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: #75ACEC;
+}
+footer{
+    background: #4B0082;
+    color: #fff;
+    clear: both;
+    padding: 10px 10px;
+    text-align: center;
+}
+.put{
+    font-size: 40px;
+    font-weight: bolder;
+    
+}

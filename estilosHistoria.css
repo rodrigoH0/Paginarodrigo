@@ -1,0 +1,108 @@
+
+body{background:hsla(46, 82%, 59%, 0.911);
+}
+.imga{
+    float: left;
+}
+.titulo{
+    text-align: center;
+    color: turquoise;
+}
+h1{
+    text-shadow: 2px 2px 6px blue;
+
+}
+header div p {
+    text-align: center;
+    
+    font-size: 25px;
+    margin: 10px;
+    border: 5px black;
+    padding: 10px;
+}
+
+header{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 15px;
+}
+h2 {
+    text-shadow: 2px 2px 6px blue;
+}
+header p {
+    font-weight: bold;
+}
+header nav{
+    background: #258fd5;
+    overflow: hidden;
+}
+
+header nav ul{
+   list-style: none;
+   font-weight: bold;
+}
+
+header nav ul li{
+    float: left;
+   
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: #75ACEC;
+}
+table, th, td{
+    border: 2px solid rgb(050, 550, 850, 2.2);
+    
+}
+table {
+    border-collapse: collapse;
+    width: 700px;
+    text-align: justify;
+    background: darkturquoise;
+    font-weight: bold;
+}
+
+
+table, td{
+    
+    width: 800px;
+ 
+   
+   
+}
+
+th{
+    text-align: center;
+    background: #009ddc;
+    color:WHite;
+
+}
+tr:hover{
+    background: #ffff;
+}
+.centertable{
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+footer{
+    background: #4B0082;
+    color: #fff;
+    clear: both;
+    padding: 10px 10px;
+    text-align: center;
+}
+.tdise{
+    
+  font-size: 30px;
+  color: hsl(210, 9%, 4%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

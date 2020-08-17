@@ -1,0 +1,71 @@
+body{
+    background: hsl(133, 57%, 58%);
+}
+.imga{
+    float: left;
+}
+.titulo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h1{
+    text-shadow: 2px 2px 6px rgb(0, 0, 0,3);
+
+}
+header div p {
+    text-align: center;
+    
+    font-size: 25px;
+    margin: 10px;
+    border: 5px black;
+    padding: 10px;
+}
+
+
+header{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav{
+    background: #258fd5;
+    overflow: hidden;
+}
+
+header nav ul{
+   list-style: none;
+   font-weight: bold;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: #75ACEC;
+}
+footer{
+    background: #4B0082;
+    color: #fff;
+    clear: both;
+    padding: 10px 10px;
+    text-align: center;
+}
+.diseñoint{
+    text-align: justify;
+
+
+}
+.cuad {
+    margin: auto;
+    padding: 2px;
+    border-color: yellow;
+}

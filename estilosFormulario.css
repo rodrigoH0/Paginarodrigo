@@ -1,0 +1,117 @@
+
+body{
+    background: #00FFFF;
+}
+
+
+.imga{
+    float: left;
+}
+.titulo{
+    text-align: center;
+    color: #920808bc;
+}
+h1{
+    text-shadow: 2px 2px 6px rgb(1, 1, 0,3);
+
+}
+header div p {
+    text-align: center;
+    
+    font-size: 35px;
+    margin: 10px;
+    border: 5px black;
+    padding: 10px;
+}
+h2{
+    
+    text-align: center;
+    color: black;
+}
+form{
+  
+    width: 400px;
+    height: 500px;
+
+    background: #d9fc7b;
+    border: 3px solid #fff;
+    margin: 30px;
+    padding: 35px;
+    font: 120% sans-serif;
+}
+label, textarea, input{
+    font-size: 12px;
+    display:block;
+    width: 90%;
+    font: 120% sans-serif;
+}
+
+header{
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+header nav{
+    background: #258fd5;
+    overflow: hidden;
+   
+    
+}
+
+header nav ul{
+   list-style: none;
+   font-weight: bold;
+   overflow: hidden;
+}
+
+header nav ul li{
+    float: left;
+   
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: rgb(248, 247, 252);
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: #75ACEC;
+}
+
+
+textarea{
+    resize: vertical;
+    max-height: 250px;
+    min-height: 100px;
+}
+
+input, textarea{
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(18, 180, 26);
+}
+
+input:focus, textarea:focus{
+    border: 2px solid #5ae6dff3;
+}
+
+input[type="submit"]:hover{
+ background: #4af4e6;
+ cursor: pointer;
+}
+
+footer{
+    background: #4B0082;
+    color: #fff;
+    clear: both;
+    padding: 10px 10px;
+    text-align: center;
+}
+/*.formu{
+    
+    float:right;;
+}*/
